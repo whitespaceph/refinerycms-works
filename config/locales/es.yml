@@ -1,0 +1,43 @@
+es:
+  refinery:
+    plugins:
+      works:
+        title: Works
+#        article: masculino/femenino
+    works:
+      admin:
+        works:
+          actions:
+            create_new: Crear nuevo work
+            reorder: Reordenar works
+            reorder_done: Reordenación de works completada
+          records:
+            title: Works
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay works todavía. Pulsa en "Crear nuevo Work" para crear tu primer work.
+          work:
+            view_live_html: Ver este work como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este work
+            delete: Borrar este work para siempre
+      works:
+        show:
+          other: Otros works
+  activerecord:
+    attributes:
+      'refinery/works/work':
+        title: Title
+        work_id: Work
+        cover_photo: Cover Photo
+        client_name: Client Name
+        work_type: Work Type
+        work_description: Work Description
+        work_photo_1: Work Photo 1
+        work_photo_2: Work Photo 2
+        work_photo_3: Work Photo 3
+        work_photo_4: Work Photo 4
+        work_photo_5: Work Photo 5
+        work_photo_6: Work Photo 6
+        work_photo_7: Work Photo 7
+        work_photo_8: Work Photo 8
+        work_photo_9: Work Photo 9
+        work_photo_10: Work Photo 10

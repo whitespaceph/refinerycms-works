@@ -1,0 +1,42 @@
+sk:
+  refinery:
+    plugins:
+      works:
+        title: Works
+    works:
+      admin:
+        works:
+          actions:
+            create_new: Pridať Work
+            reorder: Preusporiadať Works
+            reorder_done: Koniec radenia Works
+          records:
+            title: Works
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Works. Kliknite na "Pridať Work" pre pridanie prvého work.
+          work:
+            view_live_html: Zobraziť náhľad work<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť work
+            delete: Zmazať work
+      works:
+        show:
+          other: Daľšie Works
+  activerecord:
+    attributes:
+      'refinery/works/work':
+        title: Title
+        work_id: Work
+        cover_photo: Cover Photo
+        client_name: Client Name
+        work_type: Work Type
+        work_description: Work Description
+        work_photo_1: Work Photo 1
+        work_photo_2: Work Photo 2
+        work_photo_3: Work Photo 3
+        work_photo_4: Work Photo 4
+        work_photo_5: Work Photo 5
+        work_photo_6: Work Photo 6
+        work_photo_7: Work Photo 7
+        work_photo_8: Work Photo 8
+        work_photo_9: Work Photo 9
+        work_photo_10: Work Photo 10
